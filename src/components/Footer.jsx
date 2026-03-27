@@ -8,7 +8,7 @@ export default function Footer() {
       {/* ── Order Online strip ── */}
       <div style={{ textAlign: 'center', padding: '2.5rem 2rem', borderBottom: '1px solid rgba(255,255,255,0.08)', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1rem' }}>
         <p style={{ fontFamily: "'Bona Nova SC',serif", fontSize: '1.3rem', color: 'rgba(255,255,255,0.8)' }}>
-          Ready to experience authentic Indian flavors?
+          Ready to experience Authentic Indian flavors?
         </p>
         <Link to="/menu" className="btn-saffron" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem' }}>
           <ShoppingBag size={15} /><span>Order Online Now</span>
